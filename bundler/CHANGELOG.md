@@ -33,7 +33,7 @@ Bugfixes:
   - Fix config location edge case where if `BUNDLE_APP_CONFIG` is set to an absolute path like in official ruby docker images, and there's no Gemfile up in the directory hierarchy, bundler would end up using the default config location instead of the customized one [#7622](https://github.com/rubygems/bundler/pull/7622)
   - Fix error message about missing permissions recommending a deprecated command [#7633](https://github.com/rubygems/bundler/pull/7633)
   - Fix `init_gems_rb` setting being ignored by `bundle gem` [#7629](https://github.com/rubygems/bundler/pull/7629)
-  - Fix "unresolvable warning" being printed on `bundle install` of multipliplatform `gems.rb` files without lockfiles, multiplatform is now managed automatically [#7580](https://github.com/rubygems/bundler/pull/7580)
+  - Fix "unresolvable warning" being printed on `bundle install` of multiplatform `gems.rb` files without lockfiles, multiplatform is now managed automatically [#7580](https://github.com/rubygems/bundler/pull/7580)
   - Fix setting the number of `--jobs` to be one unit less than specified to the CLI [#3393](https://github.com/rubygems/rubygems/pull/3393)
   - Fix extension building when the same git source specifies several gems with extensions [#3475](https://github.com/rubygems/rubygems/pull/3475)
   - Fix uninitialized instance variable warning under ruby-head (2.8-dev) [#3477](https://github.com/rubygems/rubygems/pull/3477)
