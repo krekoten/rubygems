@@ -2,7 +2,7 @@
 
 Highlights:
 
-  - Windows support. There's still gotchas and unimplemented features, but a Windows CI is now enforced.
+  - Windows support. There are still gotchas and unimplemented features, but a Windows CI is now enforced.
   - Full multiplatform support. Bundler should now seamlessly handle multiplatform `gems.rb` files.
 
 Features:
